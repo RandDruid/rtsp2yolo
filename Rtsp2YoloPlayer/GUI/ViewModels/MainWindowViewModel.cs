@@ -22,7 +22,7 @@ namespace Rtsp2YoloPlayer.GUI.ViewModels
         private bool _startButtonEnabled = true;
         private bool _stopButtonEnabled;
 
-        public string DeviceAddress { get; set; } = "rtsp://10.70.11.33/ch01.h264";
+        public string DeviceAddress { get; set; } = "rtsp://192.168.0.33/ch01.h264";
 
         public string Login { get; set; } = "yolo";
         public string Password { get; set; } = "yoloyolo";
